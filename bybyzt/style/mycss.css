@@ -1,0 +1,137 @@
+@charset "utf-8";
+body{margin:0px auto; padding:0px; font-size:14px; color:#333333;font-family:"microsoft yahei"; background:#FFF; list-style-type:none;}
+
+/*公共样式*/
+img{ border:none;}
+ul,li,p,img,dd,dl,dt,span,font,h3,h4,input,div,table,td,tr{margin:0px; padding:0px;border:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#a41528;} 
+.clear{clear:both;}
+.lt{ float:left;}
+.rt{ float:right;}
+.wrap1200{width:1200px;margin:0 auto;}
+.main-title{text-align:center;font-size:50px;font-weight:bold;padding-top:30px;padding-bottom:30px;}
+.main-title-w{background:url(../images/title-line-w.png) repeat-x center center;}
+.main-title-r{background:url(../images/title-line-r.png) repeat-x center center;}
+.main-title p{margin:0 auto;}
+.main-title span{color:#fff;}
+.btn{border:none;border-radius:4px;cursor:pointer;}
+
+/*头部*/
+.head{height:120px;}
+.head .head-content{height:60px;padding-top:30px;}
+.head .head-content .logo{margin-right:60px;}
+.head .head-content > dl{margin-right:32px;text-align:center;}
+.head .head-content > dl dt{height:40px;}
+.head .head-content > dl dd{font-size:12px;color:#666;padding-top:5px;}
+
+/*菜单栏*/
+.nav{height:40px;background:#494949;}
+.nav .nav-content li{float:left;height:40px;line-height:40px;width:150px;text-align:center;}
+.nav .nav-content li.active{background:#f12d19;}
+.nav .nav-content li a{font-size:18px;color:#fff;}
+
+/*banner*/
+.banner .bans{height: 650px;width: 100%;margin: 0px auto;overflow: hidden;background:url(../images/banner.png) no-repeat 50% top;}
+
+/*主体第一部分*/
+.main1 .main1-content{height:630px;margin-top:30px;margin-bottom:40px;}
+.main1 .main1-content .main1-intro h1{font-size:36px;color:#333;}
+.main1 .main1-content .main1-intro p{font-size:18px;color:#333;line-height:34px;}
+.main1 .main1-content .main1-intro p span{color:#f12d19;}
+.main1 .main1-content .main1-person img{margin-top:80px;margin-left:-70px;}
+.main1 .main1-content .main1-sign .sign-form{width:320px;height:525px;background:#ff9c00;margin-top:40px;}
+.main1 .main1-content .main1-sign .sign-form .title{font-size:24px;color:#fff;padding-top:30px;text-align:center;margin-bottom:10px;}
+.main1 .main1-content .main1-sign .sign-form .title span{color:#f1ee19;font-weight:bold;}
+.main1 .main1-content .main1-sign .sign-form input{width:280px;height:40px;line-height:40px;border:1px solid #fff;background:#ff9c00;margin:10px 20px 0; padding-left:15px;}
+.main1 .main1-content .main1-sign .sign-form input::-webkit-input-placeholder { color: #fff; font-size:15px;
+} 
+.main1 .main1-content .main1-sign .sign-form button{width:280px;height:40px;background:#f12d19;margin-top:20px;margin-left:15px;font-size:20px;color:#fff;}
+.main1 .main1-content .main1-sign .sign-form img{;margin-top:20px;margin-left:15px;}
+.main1 .main1-content .main1-sign .sign-form p{width:65px;font-size:15px;line-height:28px;color:#fff;padding-left:10px;padding-top:40px;}
+/*主体第二部分*/
+.main2{height:770px;background:#f45747;}
+.main2 .main2-content .main2-info{width:379px;height:590px;background:#fff;text-align:center;margin-left:25px;}
+.main2 .main2-content .main2-info .info-title{font-size:30px;color:#333;margin-top:25px;}
+.main2 .main2-content .main2-info .info-con{font-size:18px;color:#666;line-height:32px;padding-top:20px;padding-bottom:30px;border-bottom:1px dashed #c8c8c8;}
+.main2 .main2-content .main2-info .info-apli p {font-size:24px;color:#f12d19;position:relative;    text-align: left;padding-left: 15px;width:170px;float:left;}
+.main2 .main2-content .main2-info .info-apli p span:first-child{font-size:68px;font-family:impact;}
+.main2 .main2-content .main2-info .info-apli p span:last-child{color:#999;font-size:18px;text-decoration:line-through;position:absolute;top:20px;right:-15px;}
+.main2 .main2-content .main2-info .info-apli button{width:140px;height:45px;border-radius:6px;background:#f12d19;color:#fff;font-size:24px;margin-top:25px;}
+/*主体第三部分*/
+.main3{height:520px;background:#f8ac01;}
+.main3 .main3-content .main3-info{width:186px;height:173px;background:#f12d19;position: absolute;top: 190px;left: 390px;}
+.main3 .main3-content .main3-info p{text-align:center;}
+.main3 .main3-content .main3-info button{width:140px;height:45px;background:#fff000;font-size:20px;color:#f12d19;margin-top:5px;margin-left:24px;}
+.main3 .main3-content .main3-text{padding-left:40px;width:612px;}
+.main3 .main3-content .main3-text p{color:#fff;line-height:32px;}
+.main3 .main3-content .main3-text p.main3-text-t{font-size:30px;padding-top:20px;padding-bottom:10px;}
+.main3 .main3-content .main3-text p.main3-text-c{font-size:16px;}
+/*主体第四部分*/
+.main4{height:570px;background:#f2f2f2;}
+.main4 .main4-content .main4-content-lt{width:550px;height:385px;background:#f8ac01;}
+.main4 .main4-content .main4-content-lt .lt-p{width:540px;height:255px;margin:5px auto;background:#fff;}
+.main4 .main4-content .main4-content-lt .lt-p p:first-child{text-align:center;font-size:30px;color:#f12d19;padding:20px;}
+.main4 .main4-content .main4-content-lt .lt-p p:last-child{width:490px;font-size:16px;color:#666;line-height:32px;margin:0 auto;}
+.main4 .main4-content .main4-content-lt button{width:140px;height:45px;background:#f12d19;color:#fff;font-size:24px;margin-top:40px;}
+.main4 .main4-content .main4-content-rt{margin-left:590px;}
+.main4 .main4-content .main4-content-rt ul{background:url(../images/main4-ul.png) no-repeat;padding-left:100px;}
+.main4 .main4-content .main4-content-rt ul li{height:100px;line-height:28px;}
+.main4 .main4-content .main4-content-rt ul li p:first-child{font-size:20px;color:#f8ac01;}
+.main4 .main4-content .main4-content-rt ul li p:last-child{font-size:16px;color:#666;}
+/*主体第五部分*/
+.main5{height:650px;background:#f45747;}
+.main5 .main5-content .main5-info{width:280px;height:410px;background:#fff;text-align:center;margin-left:20px;}
+.main5 .main5-content .main5-info .info-title{font-size:24px;color:#333;margin-top:25px;}
+.main5 .main5-content .main5-info .info-con{font-size:24px;color:#f12d19;position:relative;}
+.main5 .main5-content .main5-info .info-con span:first-child{font-size:68px;font-family:impact;}
+.main5 .main5-content .main5-info .info-con span:last-child{color:#999;font-size:18px;text-decoration:line-through;position:absolute;top:20px;right:25px;}
+.main5 .main5-content .main5-info button{width:122px;height:122px;border-radius:122px;background:#f8ac01;color:#fff;font-size:24px;padding-top:20px;}
+.main5 .main5-content .main5-info button span{display:inline-block;width:27px;height:35px;background:url(../images/main5-btn-bk.png);}
+/*主体第六部分*/
+.main6{height:635px;background:#f8ac01;}
+.main6 .main6-content .main6-content-lt{width:225px;height:225px;border-radius:225px;background:#f12d19;margin-top:180px;}
+.main6 .main6-content .main6-content-lt p:first-child{text-align:center;font-size:24px;color:#fff;padding-top:45px;}
+.main6 .main6-content .main6-content-lt .price{text-align:center;font-size:68px;color:#fff;font-family:impact;}
+.main6 .main6-content .main6-content-lt button{width:115px;height:35px;background:#fff000;margin-left:55px;color:#f12d19;font-size:18px;}
+.main6 .main6-content ul{background:url(../images/main6-bk.png) no-repeat;line-height:32px;color:#fff;margin-left:130px;}
+.main6 .main6-content ul li{height:100px;}
+.main6 .main6-content ul li:nth-child(1){padding-left: 460px;padding-top: 15px;}
+.main6 .main6-content ul li:nth-child(2){padding-left: 510px;padding-top: 25px;}
+.main6 .main6-content ul li:nth-child(3){padding-left: 500px;padding-top: 30px;}
+.main6 .main6-content ul li:nth-child(4){padding-left: 405px;padding-top: 5px;}
+.main6 .main6-content ul li p:first-child{font-size:24px;}
+.main6 .main6-content ul li p:first-child span{text-decoration:line-through;}
+.main6 .main6-content ul li p:last-child{font-size:18px;}
+/*主体第七部分*/
+.main7{height:665px;background:#f2f2f2;}
+.main7 .main7-content{height:430px;background:#f8ac01;margin-top:50px;}
+.main7 .main7-content > img{margin-top:-50px;margin-left:40px;}
+.main7 .main7-content .main7-p1{text-align:center;color:#fff;font-size:50px;padding-top:30px;}
+.main7 .main7-content .main7-p1 span{font-family:impact;font-size:76px;color:#ff0000;}
+.main7 .main7-content .main7-p2{text-align:center;color:#fff;font-size:24px;text-decoration:line-through;}
+.main7 .main7-content .main7-img{margin-top:8px;}
+.main7 .main7-content .main7-img img{padding-left:40px;}
+/*主体第八部分*/
+.main8{height:750px;background:#60627b;}
+.main8 .main8-content .lt{height:570px;}
+.main8 .main8-content .lt:nth-child(2n+1){background:#efefef;}
+.main8 .main8-content .lt:nth-child(2n){background:#fff;}
+.main8 .main8-content .lt p{color:#333;text-align:center;line-height:24px;}
+.main8 .main8-content .lt .doc-name{font-size:28px;padding-top:15px;padding-bottom:5px;}
+.main8 .main8-content .lt .doc-name span{font-size:20px;}
+.main8 .main8-content .lt .doc-intro{font-size:14px;}
+.main8 .main8-content .lt button{width:115px;height:35px;border-radius:35px;color:#fff;font-size:16px;background:#ff0000;margin-top:15px;margin-left:40px;}
+/*主体第九部分*/
+.main9{height:670px;background:#f2f2f2;}
+/*页脚部分*/
+.footer{height:400px;background:#494949;}
+.footer .menu-ul{padding-top:20px;}
+.footer .menu-ul a{color:#fff;font-size:18px;}
+.footer .menu-ul li{float:left;width:145px;text-align:center;border-right:1px solid #fff;}
+.footer .menu-ul li:last-child{border:none;}
+.footer .info-ul{padding-top:55px;}
+.footer .info-ul li{float:left;background:url(../images/footer-bk.png) repeat-y right;height:300px;}
+.footer .info-ul li:last-child{background:none;}
+.footer .info-ul li:first-child p{color:#fff;font-size:18px;line-height:40px;}
