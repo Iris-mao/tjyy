@@ -14,6 +14,9 @@ a:hover{ text-decoration:underline; color:#a41528;}
 .main-title{font-size:2rem;text-align:center;padding:1.5rem 0;font-weight:bold;}
 .main-title span{color:#fff;}
 .btn{border:none;border-radius:0.2rem;cursor:pointer;}
+.price .price-now{width:50%;font-family:impact;font-size:3.4rem;color:#f12d19;text-align:right;}
+.price .price-before{text-align:left;padding-top:8%;color:#999;font-size:0.9rem;text-decoration:line-through;}
+.price .price-yuan{text-align:left;color:#f12d19;}
 
 /*头部*/
 .head{height:6rem;}
@@ -28,25 +31,23 @@ a:hover{ text-decoration:underline; color:#a41528;}
 .nav ul li a{font-size:1.2rem;color:#fff;}
 
 /*主体第一部分*/
-.main1 .main1-content{height:26rem;background:#fff;text-align:center;}
+.main1 .main1-content{background:#fff;text-align:center;padding-bottom:1rem;}
 .main1 .main1-content h1{font-size:2rem;color:#f12d19;}
 .main1 .main1-content p{font-size:1rem;color:#333;line-height:1.7rem;width:60%;height:8.75rem;padding-left:1rem;padding-top:1rem;margin-top:2rem;background:url(../images/p-bk.png)no-repeat;text-align: justify;background-size:75% 100%; }
 .main1 .main1-content p span{color:#f12d19;}
 /*主体第二部分*/
-.main2{height:42.75rem;background:#f45747;}
+.main2{background:#f45747;padding-bottom:1rem;}
 .main2 > p{color:#fff000;}
-.main2 .main2-content img{margin-right:0.5rem;width:31.7%;height:100%;}
-.main2 .main2-content .main2-info{height:11rem;background:#fff;margin-bottom:1rem;}
-.main2 .main2-content .main2-info .info-title{font-size:1.3rem;color:#333;padding:0.75rem 0.5rem 0;}
-.main2 .main2-content .main2-info .info-con{width:20rem;margin-left:10rem;font-size:0.9rem;color:#666;line-height:1.4rem;padding-top:0.5rem;padding-bottom:0.5rem;border-bottom:0.05rem dashed #c8c8c8;}
-.main2 .main2-content .main2-info .info-apli p {font-size:1.2rem;color:#f12d19;position:relative;    text-align: left;padding-left: 0.75rem;width:8.5rem;float:left;}
-.main2 .main2-content .main2-info .info-apli p span:first-child{font-size:3.4rem;font-family:impact;}
-.main2 .main2-content .main2-info .info-apli p span:last-child{color:#999;font-size:0.9rem;text-decoration:line-through;position:absolute;top:1rem;right:-0.75rem;}
+.main2 .main2-content img{margin-right:0.5rem;width:31.7%;}
+.main2 .main2-content .main2-info{margin-bottom:1rem;padding-left:30%;}
+.main2 .main2-content .main2-info .info-title{font-size:1.3rem;color:#333;padding-top:0.75rem;}
+.main2 .main2-content .main2-info .info-con{font-size:0.9rem;color:#666;line-height:1.4rem;padding-top:0.5rem;padding-bottom:0.5rem;border-bottom:0.05rem dashed #c8c8c8;}
+.main2 .main2-content .main2-info .info-apli{padding-bottom:0.5rem;}
 .main2 .main2-content .main2-info .info-apli button{width:7rem;height:2.25rem;background:#f12d19;color:#fff;font-size:1.2rem;margin-top:1.25rem;margin-left:1.5rem;}
 /*主体第三部分*/
-.main3{height:39rem;background:#f8ac01;}
+.main3{background:#f8ac01;padding-bottom:1rem;}
 .main3 >p {color:#f12d19;}
-.main3 .main3-content .main3-info{width:9.3rem;height:8.65rem;background:#f12d19;position: absolute;top: 8rem;left: 20.75rem;}
+.main3 .main3-content .main3-info{width:9.3rem;height:8.65rem;background:#f12d19;position: absolute;top: 6rem;left: 16.75rem;}
 .main3 .main3-content .main3-info p{text-align:center;}
 .main3 .main3-content .main3-info button{width:7rem;height:2.25rem;background:#fff000;font-size:1rem;color:#f12d19;margin-top:0.25rem;margin-left:1.2rem;}
 .main3 .main3-content .main3-text p{color:#fff;line-height:1.6rem;}
@@ -55,24 +56,21 @@ a:hover{ text-decoration:underline; color:#a41528;}
 /*主体第四部分*/
 .main4{height:28.25rem;background:#f2f2f2;}
 .main4 > p{color:#f12d19;}
-.main4 .main4-content .main4-content{width:30rem;height:20.5rem;background:#f8ac01;padding-top:0.25rem;}
-.main4 .main4-content .main4-content .content-p{width:29.5rem;height:14rem;margin:0 auto;background:#f2f2f2 url(../images/main4-pic.png) no-repeat center 8.75rem;background-size: 75%;}
+.main4 .main4-content .main4-content{width:100%;height:20.5rem;background:#f8ac01;padding-top:0.25rem;}
+.main4 .main4-content .main4-content .content-p{width:98%;height:14rem;margin:0 auto;background:#f2f2f2 url(../images/main4-pic.png) no-repeat center 9.5rem;background-size: 75%;}
 .main4 .main4-content .main4-content .content-p p:first-child{text-align:center;font-size:1.5rem;color:#f12d19;padding:0.75rem;}
-.main4 .main4-content .main4-content .content-p p:last-child{width:27.5rem;font-size:0.9rem;color:#666;line-height:1.6rem;margin:0 auto;text-align:justify;}
+.main4 .main4-content .main4-content .content-p p:last-child{width:95%;font-size:0.9rem;color:#666;line-height:1.6rem;margin:0 auto;text-align:justify;}
 .main4 .main4-content .main4-content button{width:7rem;height:2.25rem;background:#f12d19;color:#fff;font-size:1.2rem;margin-top:2rem;}
 /*主体第五部分*/
 .main5{height:44.5rem;background:#f45747;}
 .main5 > p{color:#fff000;}
-.main5 .main5-content .main5-info{width:14.5rem;height:18rem;background:#fff;text-align:center;margin-left:1rem;margin-bottom:1rem;}
+.main5 .main5-content .main5-info{width:48%;background:#fff;text-align:center;margin-left:1rem;margin-bottom:1rem;padding-bottom:1rem;}
 .main5 .main5-content .main5-info .info-title{font-size:1.2rem;color:#333;margin-top:1.25rem;}
-.main5 .main5-content .main5-info .info-con{font-size:1.2rem;color:#f12d19;position:relative;margin-right:2.5rem;}
-.main5 .main5-content .main5-info .info-con span:first-child{font-size:3.4rem;font-family:impact;}
-.main5 .main5-content .main5-info .info-con span:last-child{color:#999;font-size:0.9rem;text-decoration:line-through;position:absolute;top:1rem;right:0.35rem;}
 .main5 .main5-content .main5-info button{width:8rem;height:2.25rem;color:#fff;font-size:1.2rem;padding-right:1.5rem;background:#f8ac01 url(../images/main5-btn-bk.png) no-repeat 6rem;background-size: 15%;}
 /*主体第六部分*/
 .main6{height:43.5rem;background:#f8ac01;}
 .main6 > p{color:#f12d19;}
-.main6 .main6-content .main6-content-pic{height:14.5rem;background:url(../images/main6-pic.png) no-repeat;background-size: 95%;margin-left:1.75rem; padding-left: 16rem;padding-top: 2.5rem;}
+.main6 .main6-content .main6-content-pic{height:14.5rem;background:url(../images/main6-pic.png) no-repeat;background-size: 95%;margin-left:1.75rem; padding-left: 53%;padding-top: 2.5rem;}
 .main6 .main6-content .main6-content-pic p{font-size:1.2rem;color:#fff;}
 .main6 .main6-content .main6-content-pic p span{font-family:impact;font-size:3.4rem;}
 .main6 .main6-content .main6-content-pic button{width:6.5rem;height:2.5rem;background:#fff000;margin-left:0.5rem;margin-top:0.5rem;color:#f12d19;font-size:1.1rem;}
@@ -91,43 +89,34 @@ a:hover{ text-decoration:underline; color:#a41528;}
 .main7 .main7-content .main7-img{margin-top:0.4rem;}
 .main7 .main7-content .main7-img img{padding-left:0.6rem}
 /*主体第八部分*/
-.main8{height:32rem;background:#60627b;}
+.main8{background:#60627b;padding-bottom:3rem;}
 .main8 > p {color:#fff;}
 .tabBox .hd{ position:relative;  }
-.tabBox .hd ul{ position:absolute; top:1rem;left:12.5rem; overflow:hidden;  }
+.tabBox .hd ul{ position:absolute; top:1rem;left:40%; overflow:hidden;  }
 .tabBox .hd ul li{ float:left;margin-left:0.75rem;width:0.75rem;height:0.75rem;background:url(../images/tab-bc.png) no-repeat;background-size:100%; }
 .tabBox .hd ul .on{  background:url(../images/tab-on.png) no-repeat;background-size:100%;}
 .tabBox .bd ul li > div{position:relative;}
 .tabBox .bd .lt{width:48%;}
-.tabBox .bd .doc-info{height:8rem;width:14.5rem;background:rgba(114,100,96,.5);position:absolute;top:14rem;text-align:center;}
+.tabBox .bd .doc-info{width:100%;background:rgba(114,100,96,.5);position:absolute;bottom:0;text-align:center;padding-bottom:0.5rem}
 .tabBox .bd .doc-info p{color:#fff;text-align:center;line-height:1.2rem;}
 .tabBox .bd .doc-info .doc-name{font-size:1.5rem;padding-top:0.75rem;padding-bottom:0.25rem;}
 .tabBox .bd .doc-info .doc-name span{font-size:1rem;}
 .tabBox .bd .doc-info .doc-intro{font-size:0.9rem;}
 .tabBox .bd .doc-info button{width:6rem;height:1.75rem;border-radius:1.75rem;color:#fff;font-size:0.8rem;background:#ff0000;margin-top:0.75rem;}
 /*主体第九部分*/
-.main9{height:57rem;background:#fff;}
+.main9{background:#fff;padding-bottom:2rem;}
 .main9 > p {color:#f12d19;}
 .main9 .sign-form{width:27rem;margin:0 auto;}
 .main9 .sign-form span{font-size:1.5rem;color:#333;}
 .main9 .sign-form input{width:17.5rem;height:3rem;line-height:3rem;border:0.05rem solid #fff;background:#f1f0f0;margin:1rem 1rem 0; padding-left:0.75rem;font-size:1rem;}
 .main9 .sign-form button{width:12rem;height:3rem;margin-top:2rem;margin-left:0.75rem;font-size:1.5rem;color:#fff;}
 /*页脚部分*/
-.footer{height:20rem;background:#494949;}
+.footer{background:#494949;}
 .footer .footer-menu{height:2.9rem;background:#494949;}
 .footer .footer-menu ul{height:1.5rem;line-height:1.5rem;padding-top:0.75rem;}
 .footer .footer-menu ul li{float:left;width:24.5%;text-align:center;border-right:0.1rem solid #fff;}
 .footer .footer-menu ul li:last-child{border:none;}
 .footer .footer-menu ul li a{color:#fff;font-size:1.2rem;}
-.footer .footer-content{height:17.5rem;background:#6c6c6c url(../images/footer-bac.png) no-repeat;padding-top:2rem;}
-.footer .footer-content .content-lt{width:8.25rem;margin-left:2rem;}
-.footer .footer-content .content-lt > div{width:8.2rem;height:8.2rem;background:url(../images/code-back.png);background-size:100%;text-align:center;}
-.footer .footer-content .content-lt > p{font-size:1.2rem;color:#fff;line-height:1.5rem;text-align:center;padding-top:1rem;}
-.footer .footer-content .content-rt{margin-left:13.5rem;}
-.footer .footer-content .content-rt ul{background:url(../images/footer-ul-bc.png) no-repeat;background-size:11%;padding-left:2.75rem;color:#fff;margin-top:1.5rem;}
-.footer .footer-content .content-rt ul li{height:3.1rem;}
-.footer .footer-content .content-rt ul li p:first-child{font-size:0.09rem;}
-.footer .footer-content .content-rt ul li p:last-child{font-size:1.2rem;}
 
 
 @media screen and (min-width:320px) and (max-width:339px) {html { font-size: 62.5%; }}
