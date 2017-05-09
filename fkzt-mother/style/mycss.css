@@ -1,0 +1,111 @@
+@charset "utf-8";
+body{max-width:640px;margin:0 auto; padding:0; font-size:1.2rem; color:#333333;font-family:"microsoft yahei"; 
+    background:#fff; list-style-type:none;}
+    
+/*公共样式*/
+img{ border:none;max-width: 100%;vertical-align: middle;}
+ul,li,p,img,dd,dl,dt,span,font,h3,h4,input,div,table,td,tr{margin:0; padding:0;border:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#a41528;cursor: pointer;} 
+.clear{clear:both;}
+.lt{ float:left;}
+.rt{ float:right;}
+.wrap600{max-width:30rem;margin:0 auto;}
+.content-title{font-size:2.2rem;color:#f23e7d;font-family: 'FZCYSK';font-weight: bold;}
+.content-intro{font-size:1.5rem;color:#333;line-height: 1.7rem;margin-bottom: 1rem}
+
+/*头部*/
+.head{height:6.5rem;}
+.head .head-content{height:1.5rem;padding:1rem;text-align: center;}
+
+/*菜单栏*/
+.nav{height:3rem;background:#f23e7d url(../images/nav-back.png);background-size:100% 100%;}
+.nav ul li{float:left;height:3rem;line-height:3rem;width:25%;text-align:center;}
+.nav ul li a{font-size:1.2rem;color:#fff;}
+
+/*主体第一部分*/
+.main1 .main1-content{background:#fff;text-align:center;padding:2rem 0;}
+.main1 .main1-content .content-pic{background: url(../images/main1-pic.png) center center no-repeat;background-size: 75%}
+.main1 .main1-content .content-pic .text-wrap{width: 25%;height:7.5rem;
+	background: url(../images/main1-back.png) 100% 100% no-repeat;background-size: 100%;}
+.main1 .main1-content .content-pic .text-wrap .text-title{color: #fff;font-size: 1rem;font-weight: bold;padding-top: 25%;}
+.main1 .main1-content .content-pic .text-wrap .price-now{color: #fff600;font-size: 1rem;line-height:0.75rem;}
+.main1 .main1-content .content-pic .text-wrap .price-now span{font-size: 1.4rem;}
+.main1 .main1-content .content-pic .text-wrap .price-bef{color: #fff;font-size: 0.7rem;text-decoration:line-through;}
+.main1 .main1-content .main1-btn{background:url(../images/main1-btn-back.png) center center no-repeat;background-size: 100%;
+	padding: 3rem 0 1.8rem 5rem;}
+.main1 .main1-content .main1-btn a{color: #333;font-size: 1.3rem;}	
+/*主体第二部分*/
+.main2{background:#f23e7d;padding:2rem 0;text-align: center;}
+.main2 .main2-content .content-title{color: #fff600;}
+.main2 .main2-content .content-intro{color: #fff;border-bottom: 1px dashed #fff;padding-bottom: 0.8rem;}
+.main2 .main2-content .content-detail{color: #fff;text-align: left;text-indent:2em; font-size: 1.2rem;line-height: 2rem;}
+.main2 .main2-content .content-pic .pic-title{display:inline-block;background: #ffdfea;color: #f23e7d;font-size: 1.2rem;
+	font-weight: bold;padding: 0.5rem 1rem;margin:1rem 0;}
+.main2 .main2-content .content-pic .pic-wrap{width: 31%;margin-right: 0.5rem;background:#fff;margin-top: 0.5rem;white-space:nowrap;}
+.main2 .main2-content .content-pic .pic-wrap .pic-text{padding: 0.5rem 0 0.5rem 0.5rem;}
+.main2 .main2-content .content-pic .pic-wrap .pic-text p:first-child{font-family: impact;color: #f23e7d;font-size: 2.5rem;
+	float: left;padding-right: 0.5rem;}
+.main2 .main2-content .content-pic .pic-wrap .pic-text p:last-child{color: #333;font-size: 0.8rem;line-height: 1.5rem;
+	text-align: left;}
+.main2 .main2-content .main2-btn{background: #ffa800;padding:1rem 7.5rem;color: #fff;font-size: 1.3rem;border-radius: 0.5rem;
+	margin-top: 1rem; display: inline-block;}
+/*主体第三部分*/
+.main3{background:#fff;padding:2rem 0;text-align: center;}
+.main3 .main3-content{height:22rem;background:url(../images/main3-pic.png) no-repeat;background-size: 100%;}
+.main3 .main3-content > div{width: 55%;text-align: left;padding-right: 0.5rem;}
+.main3 .main3-content .content-title{color: #f23e7d;font-size: 1.5rem;font-weight: bold;padding-top: 1.5rem;}
+.main3 .main3-content .content-price{background:#f23e7d;color: #fff;font-size: 1.3rem;text-align: center;padding: 0.2rem 0 0.5rem;
+    margin: 0.5rem 0 0.7rem;}
+.main3 .main3-content .content-price span{font-size: 2rem;font-family: impact;color: #fffc00;}
+.main3 .main3-content .content-info{line-height: 2rem;}
+/*主体第四部分*/
+.main4{background:#f23e7d;padding: 2rem 0;text-align: center;}
+.main4 .content-title{color: #fff600;}
+.main4 .content-intro{color: #fff;border-bottom: 1px dashed #fff;padding-bottom: 0.8rem;}
+.main4 .main4-content{height: 18.5rem;background: url(../images/main4-pic.png) no-repeat;background-size: 100%;}
+.main4 .main4-btn{background: #ffa800;padding:1rem 1.5rem;color: #fff;font-size: 1.3rem;border-radius: 0.5rem;margin-top: 1rem; 
+	display: inline-block;}
+/*主体第五部分*/
+.main5{background:#eee;padding: 2rem 0;text-align: center;}
+.main5 .main5-content .doctor-wrap{width: 48%;height: 25rem;position: relative;}
+.main5 .main5-content .doctor-wrap .doctor-info{width:92%;height: 10rem;position: absolute;bottom: 0;background: rgba(0,0,0,.6);
+   padding:1rem 4%;color: #fff;}
+.main5 .main5-content .doctor-wrap .doctor-info .name{font-size: 1.2rem;border-bottom: 1px dashed #fff;padding-bottom: 0.5rem;}
+.main5 .main5-content .doctor-wrap .doctor-info .name span{font-size: 1.4rem;font-weight: bold;}
+.main5 .main5-content .doctor-wrap .doctor-info .intro{font-size: 1rem;text-align: justify;margin-top: 0.5rem;line-height: 1.5rem;}
+.main5 .main5-content .doctor-wrap .doctor-info .intro span{font-weight: bold;}
+.main5 .main5-content .doctor-wrap .doctor-info .btn{background: #ffa800;padding:0.5rem 1.5rem;color: #fff;font-size: 1.3rem;border-radius: 0.5rem;margin-top: 1rem; 
+	display: inline-block;}
+/*主体第六部分*/
+.main6{background:#fff;padding: 2rem 0;text-align: center;}
+.main6 .main6-content{height: 9.5rem;width: 100%;margin-top: 0.5rem;}
+.main6 .main6-content .p-wrap{width: 44%;color: #fff;line-height: 1.75rem;text-align: justify;}
+.main6 .main6-content .p-wrap p:first-child{font-size: 1.3rem;font-weight: bold;padding-top: 1.2rem;}
+.main6 .main6-content .p-wrap p:last-child{font-size: 1.1rem;}
+/*主体第七部分*/
+.main7{background:#f23e7d;padding: 2rem 0;text-align: center;color: #fff;}
+.main7 .main7-title{font-size: 2rem;font-weight: bold;}
+.main7 img{margin:1rem 0;width: 70%;}
+.main7 .main7-time{font-size: 1.1rem;}
+.main7 .main7-btn{background: #ffa800;padding:0.5rem 6rem;color: #fff;font-size: 1.3rem;border-radius: 0.5rem;margin-top: 1rem; 
+	display: inline-block;}
+/*页脚部分*/
+.footer{background:#fff;padding: 2rem 0;}
+.footer .footer-content .btn{padding:0.6rem 2rem;color: #fff;font-size: 1.3rem;border-radius: 0.5rem;display: block;}
+
+
+
+@media screen and (min-width:320px) and (max-width:339px) {html { font-size: 62.5%; }}
+@media screen and (min-width:340px) and (max-width:359px) {html { font-size: 66.40625%; }}
+@media screen and (min-width:360px) and (max-width:379px) {html { font-size: 70.3125%; }}
+@media screen and (min-width:380px) and (max-width:399px) {html { font-size: 74.21875%; }}
+@media screen and (min-width:400px) and (max-width:419px) {html { font-size: 78.125%; }}
+@media screen and (min-width:420px) and (max-width:439px) {html { font-size: 82.03125%; }}
+@media screen and (min-width:440px) and (max-width:459px) {html { font-size: 85.9375%; }}
+@media screen and (min-width:460px) and (max-width:479px) {html { font-size: 89.84375%; }}
+@media screen and (min-width:480px) and (max-width:499px) {html { font-size: 93.75%; }}
+@media screen and (min-width:500px) and (max-width:519px) {html { font-size: 97.65625%; }}
+@media screen and (min-width:520px) and (max-width:639px) {html { font-size: 101.5625%; }}
+@media only screen and (min-width: 640px){html { font-size: 125%; }}
