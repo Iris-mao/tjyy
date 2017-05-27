@@ -1,0 +1,105 @@
+@charset "utf-8";
+body{max-width:640px;margin:0 auto; padding:0; font-size:1.2rem; color:#333333;font-family:"microsoft yahei"; 
+    background:#fff; list-style-type:none;-webkit-text-size-adjust:none;}
+    
+/*公共样式*/
+img{ border:none;max-width: 100%;vertical-align: middle;}
+ul,li,p,img,dd,dl,dt,span,font,h3,h4,input,div,table,td,tr{margin:0; padding:0;border:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#a41528;cursor: pointer;} 
+.clear{clear:both;}
+.lt{ float:left;}
+.rt{ float:right;}
+.wrap600{max-width:30rem;margin:0 auto;}
+.main{text-align:center;padding:1rem 0;}
+/*标题部分*/
+.content-title{color: #bf0000;font-size: 1.9rem;font-weight: bold;}
+.content-title-en{color: #bf0000;text-transform:uppercase;font-size: 0.7rem;margin-bottom: 1rem;}
+.content-title-sub{color: #bf0000;font-size: 1.2rem;margin-bottom: 1rem;}
+/*按钮*/
+.btn{margin-top: 1rem;}
+.btn a{padding: 1rem 1.5rem 1rem 1.5rem;color: #fff;font-size: 1.1rem;border-radius: 0.2rem;display: inline-block;}
+.btn a:first-child{background: #bf0000;}
+.btn a:last-child{background: #ff8a00;}
+/*评论区*/
+.review-area{margin-top: 1rem;padding-bottom: 1rem;}
+.review-head{width: 20%;}
+.review-head img{width: 80%;}
+.review-comment{width: 80%;text-align: left;line-height: 1.5rem;}
+.review-comment > img{width: 70%;margin:2% 13%;}
+.review-comment .comment-name-doc{font-size: 1.2rem;font-weight: bold;color: #333;}
+.review-comment .comment-name-doc span{font-size: 1.1rem;color: #666;font-weight: normal;}
+.comment-name{font-size: 1.2rem;color: #bf0000;}
+.comment-name span{float: right;background: url(../images/zan.png) no-repeat;background-size: 20%;text-indent: 2rem;}
+.review-comment .comment-time{color: #999;font-size: 1rem;} 
+.comment-content{font-size: 1rem;padding-top: 1%;}
+.comment-content span{color: #bf0000;}
+.reply-area{text-align: left;background:#eee;padding: 1.5rem;margin-top: 0.5rem;}
+
+/*头部*/
+.head{height:6.5rem;}
+.head .head-content{height:1.5rem;padding:1rem;text-align: center;}
+
+/*菜单栏*/
+.nav{height:3rem;background:#bf0000 url(../images/nav-back.png);background-size: 100%;}
+.nav ul li{float:left;height:3rem;line-height:3rem;width:25%;text-align:center;}
+.nav ul li a{font-size:1.2rem;color:#fff;}
+
+/*主体第一部分*/
+.main1-content .content-title{height:4rem;background: url(../images/main1-title.png) center center no-repeat;background-size: 100%;}
+.main1-content .content-info{font-size: 1rem;color: #333;text-align: justify;line-height: 1.8rem;text-indent: 2rem;padding: 0 2%;
+    margin-top: -3%;}
+/*主体第二部分*/
+.main2-content .content-title{font-size: 2.1rem;font-weight: bold;color: #ba0909; }
+.main2-content .content-title span{font-size: 1.8rem;color:#ff6600;
+    background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#540505), to(#bc0909)); color: transparent; -webkit-background-clip: text;    /* 背景色渐变 */}
+.main2-content img{margin: 0.5rem 0;}
+.main2-content .content-info{text-align: justify;text-indent: 2rem;font-size: 1.1rem;color: #333;line-height: 2rem;}
+.main2-content > div > p {position: absolute;bottom: 0.5rem;width: 100%;line-height: 2.5rem;background: rgba(0,0,0,.3);
+	font-size: 1.1rem;color: #fff;}
+/*主体第三部分*/
+.main3-content .content-info{width: 48%;}
+.main3-content .content-info p{font-size: 1.2rem;font-weight: bold;line-height: 2.5rem;}
+/*主体第四部分*/
+.main4-content .content-info{width: 32%;height: 14rem;margin-right: 2%;}
+.main4-content .content-info p:first-child{    padding: 72% 2% 0;font-size: 1rem;line-height: 1.5rem;}
+.main4-content .content-info p:first-child a{color: #bf0000;}
+.main4-content .content-info p:last-child{color: #bf0000;font-size: 1.2rem;font-weight: bold;line-height: 2rem;}
+/*主体第五部分*/
+.main5{background:url(../images/main5-back.png) no-repeat;background-size:100%;padding: 1rem 0;text-align: center;}
+.main5 .main5-content .content-info{width: 48%;}
+.main5 .main5-content .content-info p{color: #fff;font-size: 1rem;line-height: 1.8rem;text-align: justify;text-indent: 4rem;
+    padding:4% 2%;}
+    .main5 .main5-content .content-info p a{color: #fff000;}
+/*主体第六部分*/
+
+/*主体第七部分*/
+.main7-content > p{text-align: left;color: #111;font-size: 1.3rem;padding-left: 0.5rem;border-left:0.2rem solid #bf0000;
+	margin-bottom: 1rem;}
+.main7-content .submit p{color: #bf0000;font-size: 1.2rem;}
+.main7-content .submit textarea{width: 100%;height: 5rem;margin-top: 1rem;}
+/*主体第八部分*/
+.main8{padding: 2rem 0;text-align: center;}
+.main8 > p{color: #fff;font-size: 1.6rem;font-weight: bold;background: #bf0000;line-height: 4rem;}
+.main8 .main8-content .sign-form input{width: 20rem;height: 3rem;border:0.05rem solid #ccc;margin-top: 0.5rem;}
+.main8 .main8-content .sign-form button{border:none;width: 10rem;height: 3rem;border-radius: 0.2rem;color: #fff;font-size: 1.2rem;}
+/*页脚*/
+.footer{background: #faebeb;padding: 1.5rem 1rem;}
+.footer .footer-left{width: 40%;}
+.footer .footer-right{width: 55%;}
+.footer .footer-right > img{margin-bottom: 0.5rem;}
+.footer .footer-right a img{width: 30%;}
+
+@media screen and (min-width:320px) and (max-width:339px) {html { font-size: 62.5%; }}
+@media screen and (min-width:340px) and (max-width:359px) {html { font-size: 66.40625%; }}
+@media screen and (min-width:360px) and (max-width:379px) {html { font-size: 70.3125%; }}
+@media screen and (min-width:380px) and (max-width:399px) {html { font-size: 74.21875%; }}
+@media screen and (min-width:400px) and (max-width:419px) {html { font-size: 78.125%; }}
+@media screen and (min-width:420px) and (max-width:439px) {html { font-size: 82.03125%; }}
+@media screen and (min-width:440px) and (max-width:459px) {html { font-size: 85.9375%; }}
+@media screen and (min-width:460px) and (max-width:479px) {html { font-size: 89.84375%; }}
+@media screen and (min-width:480px) and (max-width:499px) {html { font-size: 93.75%; }}
+@media screen and (min-width:500px) and (max-width:519px) {html { font-size: 97.65625%; }}
+@media screen and (min-width:520px) and (max-width:639px) {html { font-size: 101.5625%; }}
+@media only screen and (min-width: 640px){html { font-size: 125%; }}
