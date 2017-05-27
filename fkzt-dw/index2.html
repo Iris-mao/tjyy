@@ -1,0 +1,30 @@
+<!DOCTYPE html5>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>计算马的数量</title>
+</head>
+<body>
+    <p>马年求马:有一母马，到5岁可生育，每年一头，所生均是一样的母马，到8岁绝育不能再生（小于8才生孩子），10岁死亡，问n年后，有多少头马。</p>
+	<label>请输入要计算的年份</label><input type="text" name="" id="input">
+	<button onclick="ma( ' + document.getElementById("input").value + ' )">点击生成</button>
+	<p id="ma"></p>
+</body>
+<script type="text/javascript">
+var year = document.getElementById("input").value;   //获取输入的年份
+	function ma(year) {
+		var num = 1;   //初始化有一头母马
+		for(var i =1;i<= year;i++){
+			if(i>=5&&i<8){   
+                num++;     //在生育年龄范围内添加一头母马
+                ma(year-i);    //递归算出前几年有多少头母马出生
+			}
+			if(i==10){
+				num--;   //如果年龄到了10岁就减少一头母马
+			}
+		}
+		console.log(year,num);
+		document.getElementById("ma").innerHTML = num;
+	}
+</script>
+</html>
