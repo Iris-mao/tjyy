@@ -231,7 +231,11 @@
                     <p class="comment-content">
                         28岁，结婚两年来一直备孕无果，去医院经刘海霞主任诊断发现重度宫颈糜烂、卵巢囊肿、盆腔粘连等多种问题，然后我才知道自己一直怀不上孩子的原因，幸亏来苏州同济医院治好了我的宫颈糜烂和其他妇科病，现在我的孩子已经5个月大了。这是我当初的而检查报告。
                     </p>
-                    <img src="images/head/content_01.png">
+                    <div id="slider">
+                        <div class="spic">
+                            <img src="images/head/content_01.png" />
+                        </div>
+                    </div>
                 </div>
                 <div class="clear"></div>
                 <div class="reply-area">
@@ -259,7 +263,11 @@
                     <p class="comment-content">
                        我是提前在网上预约的涂医生，是朋友介绍过来看的，听她说看的不错，一直没有复发。我不止白带不正常，我还腰疼，大腿抽筋，不知道你们有没有这种情况。做了BBT射频消融术没有感到难受，恢复之后身体比以前好很多。我的检查报告。
                     </p>
-                    <img src="images/head/content_02.png">
+                    <div id="slider1">
+                        <div class="spic">
+                            <img src="images/head/content_02.png" />
+                        </div>
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -306,7 +314,7 @@
             <input placeholder="科室" style="display:none;" value="&nbsp;" id="tj_keshi"/>
             <input placeholder="医生" style="display:none;" value="&nbsp;" id="tj_doctor"/>
             <input placeholder="说明" style="display:none;" values="&nbsp;" id="tj_shuoming"/>
-            <button class="btn" style="background:#bf0000;" href="tel:4006009222">拨打电话</button>
+            <button class="btn" style="background:#bf0000;"><a href="tel:4006009222" style="background:none;padding:0;">拨打电话</a></button>
             <button class="btn" style="background:#ff8400;" id="tj_butsav" onClick="return addvalygbb();">提交预约</button>
          </form>
     </div>
@@ -329,6 +337,7 @@
 <script type="text/javascript" src="/templets/js/ask.js"></script> 
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/important.js"></script>
+<script src="js/imglarge.js"></script>
 <script type="text/javascript">
     function tijiao(){
         if(document.getElementById('comment').value === ""){
@@ -337,4 +346,8 @@
             alert('提交成功');
         }
     }
+    $(document).ready(function() {
+        $('#slider').slider({ speed: 500 });
+        $('#slider1').slider({ speed: 500 });
+  });
 </script>

@@ -1,0 +1,164 @@
+body{max-width:640px;margin:0 auto; padding:0; font-size:1.2rem; color:#333333;font-family:"microsoft yahei"; 
+    background:#fff; list-style-type:none;-webkit-text-size-adjust:none;}
+    
+/*公共样式*/
+img{ border:none;max-width: 100%;vertical-align: middle;}
+ul,li,p,img,dd,dl,dt,span,font,h3,h4,input,div,table,td,tr{margin:0; padding:0;border:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#a41528;cursor: pointer;} 
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #adadad;font-size: 1.2rem;}
+input:-moz-placeholder, textarea:-moz-placeholder {color:#adadad;font-size: 1.2rem;}
+input::-moz-placeholder, textarea::-moz-placeholder {color:#adadad;font-size: 1.2rem;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color:#adadad;font-size: 1.2rem;}
+.clear{clear:both;}
+.lt{ float:left;}
+.rt{ float:right;}
+.wrap600{max-width:30rem;margin:0 auto;}
+.main{text-align:center;}
+/*标题部分*/
+.content-title{color: #f47677;font-size: 1.8rem;font-weight: bold;line-height:4rem;margin-bottom: 1.5rem;
+	background: url(../images/title-back.png) center bottom no-repeat;background-size: 100%;}
+
+/*按钮*/
+.btn{width: 26rem;margin:1rem auto;}
+.btn div{width: 46%;background: #fa986c;padding: 0.2rem;border-radius: 0.4rem;}
+.btn div a{line-height: 2.8rem;display: block;border:0.1rem dashed #fff;border-radius: 2rem;color: #fff;}
+
+/*头部*/
+.head{height:6.5rem;}
+.head .head-content{height:1.5rem;padding:1rem;text-align: center;}
+
+/*菜单栏*/
+.nav{height:3rem;background:#f05657 url(../images/nav-back.png);background-size: 100%;}
+.nav ul li{float:left;height:3rem;line-height:3rem;width:25%;text-align:center;}
+.nav ul li a{font-size:1.2rem;color:#fff;}
+
+/*主体第一部分*/
+.main1{background: #fdebeb;}
+.main1-content{padding: 1rem 0;}
+.main1-content .content-wrap{width: 49%;height: 9rem;background: #fff;margin-bottom: 0.5rem;}
+.main1-content .content-wrap .wrap-left{width: 40%}
+.main1-content .content-wrap .wrap-left img{width: 80%;margin-top: 20%;}
+.main1-content .content-wrap .wrap-left p{font-size: 1rem;font-weight: bold;line-height: 2rem;}
+.main1-content .content-wrap .wrap-right{width: 58%;text-align: left;padding-top: 0.5rem;}
+.main1-content .content-wrap .wrap-right p{line-height: 1.5rem;}
+.main1-content .content-wrap .wrap-right span{font-size: 0.8rem;background: #e6e6e6;padding:0.1rem 0.3rem;
+	border-radius: 2rem; }
+.main1-content .content-wrap .wrap-right span:first-child{margin-right: 5%;}
+.main1-content .content-wrap .wrap-right .warn{color: #f47677;font-size: 0.8rem;line-height: 1rem;
+	padding-top: 0.2rem;height: 2rem;text-align: justify;}
+.main1-content .content-wrap .wrap-right .link{color: #fff;font-size: 0.8rem;background: #f47677;
+	display: inline-block;text-align: center;margin-top: 0.5rem;width: 100%;line-height: 2rem;
+	border-radius: 0.4rem;}
+.main1-content .content-wrap .wrap-right .link a{color: #fff;text-decoration: underline;}
+.main1-content .focus dl{height: 10.5rem;}
+.main1-content .focus dl img{width: 50%;padding-top: 40%;}
+.main1-content .focus dl p{color: #fff;font-size: 1.1rem;}
+.main1-content .focus dt{width: 20%;height: 100%;background: #f47677;}
+.main1-content .focus dd{width: 80%;height: 100%;background: #fff;}
+.main1-content .focus dd a{display: inline-block;height: 3.5rem;line-height: 3.5rem;font-size: 1.1rem;}
+.main1-content .focus dd a:first-child{width: 32%;float: left;border-right: 0.05rem solid #fdebeb;
+	border-bottom: 0.05rem solid #fdebeb;}
+.main1-content .focus dd a:nth-child(2){width: 42%;float: left;border-bottom: 0.05rem solid #fdebeb;}
+.main1-content .focus dd a:nth-child(3){width: 25.5%;height:5.225rem;float: right;color: #fff;
+	line-height:8rem;background:url(../images/main1-8.png) center 20% no-repeat #c45f98;
+	border-bottom: 0.05rem solid #fff;background-size:30%;}
+.main1-content .focus dd a:nth-child(4){width: 42%;float: left;border-bottom: 0.05rem solid #fdebeb;
+	border-right: 0.05rem solid #fdebeb;}
+.main1-content .focus dd a:nth-child(5){width: 32%;float: left;border-bottom: 0.05rem solid #fdebeb;}
+.main1-content .focus dd a:nth-child(6){width: 25.5%;height:5.225rem;float: right;color: #fff;
+	line-height:8rem;background: url(../images/main1-9.png) center 20% no-repeat #fa986c;background-size:35%;}
+/*主体第二部分*/
+.main2-content{padding: 1rem 0;}
+.main2-content .content-wrap{width: 48%;height: 6.5rem;text-align: left;}
+.main2-content .content-wrap p:first-child{color:#f47677;font-size: 1.1rem;font-weight: bold;
+	line-height: 2rem;padding-left: 20%;padding-top:2%;}
+.main2-content .content-wrap p:last-child{font-size: 1rem;line-height: 1.6rem;padding-left: 20%;}
+.main2-content .zixun{width: 80%;margin: 3% auto;border:0.05rem solid #fa986c;border-radius: 2rem;}
+.main2-content .zixun p{line-height: 2.5rem;font-size: 1.2rem;color:#fa986c;}
+.main2-content .zixun span{font-size: 1.4rem;font-family: 'impact';}
+.main2-content .zixun a{display: inline-block;background: #fa986c;padding: 0.1rem 2rem 0.1rem 1rem;
+     border-radius:0 2rem 2rem 0;color: #fff;}
+/*主体第三部分*/
+.main3{background: #fdebeb;}
+.main3-content{padding: 1rem 0;}
+.main3-content .content-wrap{width: 48%;margin-bottom:1rem;}
+.main3-content .content-wrap p{font-size: 1rem;color: #fff;line-height: 2.5rem;background: #f47677;}
+/*主体第四部分*/
+.main4{margin-bottom: 2rem;}
+.main4-content{padding: 1rem 0;}
+.main4-content ul{background: url(../images/main4-1.png) no-repeat;background-size: 100%;padding-bottom: 10%;}
+.main4-content ul li{line-height: 5rem;font-size: 1.2rem;}
+.main4-content ul li:first-child{margin-left: 10%;}
+.main4-content ul li:nth-child(2){margin-right: 12%;}
+.main4-content ul li:nth-child(3){margin-left: 10%;}
+.main4-content ul li:nth-child(4){margin-right: 2%;}
+.main4-content ul li:nth-child(5){margin-left: 4%;}
+/*主体第五部分*/
+.main5{background: #fdebeb;}
+.main5-content{padding: 1rem 0;}
+.main5-content .content-wrap .wrap-left{width: 35%;}
+.main5-content .content-wrap .wrap-right{width: 62%;text-align: justify;}
+.main5-content .content-wrap .wrap-right .doc-name{font-size: 1.2rem;padding-bottom: 0.5rem;
+	border-bottom: 0.1rem solid #333;}
+.main5-content .content-wrap .wrap-right .doc-name span{color: #f47677;font-size: 1.8rem;font-weight: bold;}
+.main5-content .content-wrap .wrap-right .doc-tit{color: #f47677;font-size: 1.1rem;font-weight: bold;
+    line-height: 2rem;}
+.main5-content .content-wrap .wrap-right .doc-info{font-size: 1rem;line-height: 1.5rem;}
+.main5-content .content-wrap .wrap-right .btn{width: 100%;margin-top:0.5rem;}
+.main5-content .content-wrap .wrap-right .btn a{display: inline-block;width: 7.5rem;height: 2.3rem;
+    background:url(../images/main5-2.png) 90% center no-repeat #fa986c;background-size: 20%;
+    line-height: 2.3rem;color: #fff;font-size: 1.1rem;border-radius: 0.4rem;text-indent: 0.5rem;}
+/*主体第六部分*/
+.main6-content{padding: 1rem 0;}
+.main6-content .content-wrap{margin-bottom: 0.5rem;}
+.main6-content .content-wrap .wrap-left{width: 23%;}
+.main6-content .content-wrap .wrap-left p{background: url(../images/main6-1.png) no-repeat;font-size: 1.2rem;
+	background-size: 100%;color: #f47677;padding: 0.6rem 0 1.5rem;font-weight: bold;}
+.main6-content .content-wrap .wrap-right{width: 75%;text-align: justify;background: #f2f2f2;}
+.main6-content .content-wrap .wrap-right p{font-size: 1rem;padding: 1rem 0.5rem;}
+/*主体第七部分*/
+.main7{background: #f2f2f2;border-top: 0.1rem solid #f47677;}
+.main7-content{padding-bottom:2rem;}
+.main7-content .main7-title{height: 4rem;background: url(../images/main7-1.png) no-repeat;
+	background-size: 100%;color: #fff;font-size: 1.8rem;font-weight: bold;width: 18rem;margin: 0 auto;
+	line-height: 3.2rem;}
+.main7-content .main7-sub{font-size: 1.1rem;color: #f47677;}
+.main7-content .sign-form input,.main7-content .sign-form select,
+.main7-content .sign-form textarea{width: 17.5rem;height: 3rem;border:0.05rem solid #ccc;margin-top: 0.5rem;
+    font-size: 1.2rem;text-indent: 1rem;}
+.main7-content .sign-form textarea{height: 7rem;}
+.main7-content .btn div a{border:none;font-size: 1.5rem;text-indent: 1.5rem;}
+.main7-content .btn div:first-child{background:url(../images/main7-2.png) 20% center no-repeat #f47677;
+    background-size: 12%;}
+.main7-content .btn div:last-child{background:url(../images/main7-3.png) 20% center no-repeat #fa986c;
+    background-size: 12%;}
+/*页脚部分*/
+.footer{padding-bottom: 1rem;}
+.footer .footer-menu{height:3.5rem;background:url(../images/footer-1.png) no-repeat #f47677;
+	background-size: 100%;}
+.footer .footer-menu ul{height:3.5rem;line-height:3.5rem;}
+.footer .footer-menu ul li{float:left;width:20%;text-align:center;}
+.footer .footer-menu ul li a{color:#fff;font-size:1.2rem;}
+.footer .footer-content{text-align: center;}
+.footer .footer-content p{font-size: 1.2rem;color: #333;line-height:2rem;padding: 1rem 0;}
+.footer .footer-content p a{color: #fff;background:#fe4e00;padding: 0.1rem 0.5rem;border-radius: 1rem;}
+.footer .btn{width: 70%;margin: 0 auto;text-align: center;}
+.footer .btn a{display: inline-block;width: 40%;font-size: 1.2rem;color: #f47677;border:0.05rem solid #f47677;
+      height: 2.5rem;line-height: 2.5rem;border-radius: 0.4rem;text-indent: 1.5rem;}
+.footer .btn a:first-child{background:url(../images/footer-2.png) 20% center no-repeat;background-size: 15%;}
+.footer .btn a:last-child{background:url(../images/footer-3.png) 20% center no-repeat;background-size: 15%;}
+
+@media screen and (min-width:320px) and (max-width:339px) {html { font-size: 62.5%; }}
+@media screen and (min-width:340px) and (max-width:359px) {html { font-size: 66.40625%; }}
+@media screen and (min-width:360px) and (max-width:379px) {html { font-size: 70.3125%; }}
+@media screen and (min-width:380px) and (max-width:399px) {html { font-size: 74.21875%; }}
+@media screen and (min-width:400px) and (max-width:419px) {html { font-size: 78.125%; }}
+@media screen and (min-width:420px) and (max-width:439px) {html { font-size: 82.03125%; }}
+@media screen and (min-width:440px) and (max-width:459px) {html { font-size: 85.9375%; }}
+@media screen and (min-width:460px) and (max-width:479px) {html { font-size: 89.84375%; }}
+@media screen and (min-width:480px) and (max-width:499px) {html { font-size: 93.75%; }}
+@media screen and (min-width:500px) and (max-width:519px) {html { font-size: 97.65625%; }}
+@media screen and (min-width:520px) and (max-width:639px) {html { font-size: 101.5625%; }}
+@media only screen and (min-width: 640px){html { font-size: 125%; }}

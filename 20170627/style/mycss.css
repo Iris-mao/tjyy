@@ -1,0 +1,132 @@
+body{max-width:640px;margin:0 auto; padding:0; font-size:1.2rem; color:#333333;font-family:"microsoft yahei"; 
+    background:#fff; list-style-type:none;-webkit-text-size-adjust:none;}
+    
+/*公共样式*/
+img{ border:none;max-width: 100%;vertical-align: middle;}
+ul,li,p,img,dd,dl,dt,span,font,h3,h4,input,div,table,td,tr{margin:0; padding:0;border:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#a41528;cursor: pointer;} 
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #adadad;font-size: 1.2rem;}
+input:-moz-placeholder, textarea:-moz-placeholder {color:#adadad;font-size: 1.2rem;}
+input::-moz-placeholder, textarea::-moz-placeholder {color:#adadad;font-size: 1.2rem;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color:#adadad;font-size: 1.2rem;}
+.clear{clear:both;}
+.lt{ float:left;}
+.rt{ float:right;}
+.wrap600{max-width:30rem;margin:0 auto;}
+.main{text-align:center;}
+/*标题部分*/
+.content-title{font-size: 2.1rem;font-weight: bold;line-height:2.8rem;padding-bottom: 1rem;
+	background: url(../images/title-back.png) center bottom no-repeat;background-size: 100%;}
+.content-title span{color: #ff851b;}	
+
+/*咨询按钮*/
+.zixun{font-size: 1.2rem;color: #e9423c;line-height: 3rem;border: 0.1rem solid #e9423c;
+    margin-bottom: 2rem;}
+.zixun a{width: 35%;float: right;background:#e9423c;color: #fff;font-weight: bold;}
+
+/*主体第一部分*/
+.main1-content{padding: 1rem 0;}
+.main1-content .tabBox .hd{ position:relative;  }
+.main1-content .tabBox .hd ul li{width:2rem;height:4rem;}
+.main1-content .tabBox .hd ul li:first-child{background:url(../images/main1-1.png) no-repeat;background-size:100%; 
+	position: absolute;top: -24rem;}
+.main1-content .tabBox .hd ul li:last-child{background:url(../images/main1-2.png) no-repeat;background-size:100%;
+	position: absolute;top: -24rem;right: 0; }
+.main1-content .tabBox .bd .title{font-size:1.4rem;color: #fff;background: url(../images/main1-5.png) center no-repeat;
+	background-size: 35%;line-height: 2.5rem;}
+.main1-content .tabBox .bd .content{font-size: 1.1rem;line-height: 2.2rem;padding: 0.5rem 0;}
+.main1-content .tabBox .bd .content span{color: #be0000;}
+.main1-content .tabBox .bd .intro{font-size: 1.2rem;color: #fff;background:rgba(0,0,0,.5);line-height: 2rem;
+	position: absolute;bottom: 0;width: 50%;}
+.main1 > img{margin: 1rem 0;}
+.main1 .jieshao{font-size: 1.3rem;color: #ff8840;line-height: 2rem;border: 0.1rem solid #ff8840;
+    padding: 0.5rem;width: 70%;margin: 0 auto 1rem;}
+/*主体第二部分*/
+.main2-content{padding: 1rem 0 2rem;}
+.main2-content > a{display: inline-block;width: 80%;margin:1rem 0;font-size: 1.5rem;color: #fff;
+	font-weight: bold;background:#e9423c;line-height: 3rem;}
+.main2-content > p{font-size: 1.2rem;text-align: justify;text-indent: 2rem;line-height: 2rem;
+	padding: 0.5rem 1rem;background:#f9fbf6;border: 0.1rem solid #89ac4a;border-radius: 0.4rem;}
+/*主体第三部分*/
+.main3-content{padding: 1rem 0 2.5rem;}
+.main3-content > p{font-size: 1.1rem;text-align: justify;text-indent: 2rem;line-height: 2rem;
+	padding: 0.5rem;background:#fff3e8;border: 0.1rem dashed #ff851b;border-radius: 0.8rem;}
+.main3-content .tabBox .hd{ position:relative;  }
+.main3-content .tabBox .hd ul{ position:absolute; top:1rem;left:17%; overflow:hidden;  }
+.main3-content .tabBox .hd ul li{ float:left;margin-left:0.75rem;width:8rem;height:0.4rem;
+	background:url(../images/tab-bc.png) no-repeat;background-size:100%; }
+.main3-content .tabBox .hd ul .on{  background:url(../images/tab-on.png) no-repeat;background-size:100%;}
+.main3-content .tabBox .bd table.imagetable {width: 100%;border-collapse: collapse;margin-top: 1rem;}
+.main3-content .tabBox .bd table.imagetable th {background:#a7a7a7;padding:0.5rem;border: solid;border-color: #a7a7a7;
+	border-width: 0.1rem;font-size: 1.5rem;color: #fff;font-weight: bold;}
+.main3-content .tabBox .bd table.imagetable td {border-width: 0.1rem;padding:0.5rem;border-style: dashed;
+	border-color: #c7c7c7;text-align: center;font-size: 1.1rem;}
+.main3-content .tabBox .bd table.imagetable td:first-child{width: 25%;}
+.main3-content .tabBox .bd table.imagetable td:nth-child(2){width: 40%;color: #d20000;}
+.main3-content .tabBox .bd table.imagetable td:last-child{width: 35%;}
+/*主体第四部分*/
+.main4-content{padding: 1rem 0;}
+.main4-content > p{font-size: 1.1rem;text-align: justify;text-indent: 2rem;line-height: 2rem;
+	padding: 0.5rem;background:#fff3e8;border: 0.1rem dashed #ff851b;border-radius: 0.8rem;}
+.main4-content .content-wrap{width: 32%;margin-right: 2%;margin-top: 1rem;}
+.main4-content .content-wrap p{font-size: 1.2rem;line-height: 1.8rem;padding-top: 0.4rem;}
+/*主体第五部分*/
+.main5-content{padding: 1rem 0;}
+.main5-content > p{font-size: 1.1rem;text-align: justify;text-indent: 2rem;line-height: 2rem;margin-bottom: 1rem;
+	padding: 0.5rem;background:#fff3e8;border: 0.1rem dashed #ff851b;border-radius: 0.8rem;}
+.main5-content .content-wrap{width: 32%;margin-right: 2%;display: inline-block;height: 11rem;
+	background:url(../images/main5-1.png) center no-repeat;background-size: 100%;}
+.main5-content .content-wrap p:first-child{width:90%;font-size: 1.2rem;color: #ff851b;font-weight: bold;
+	line-height: 2rem;border-bottom: 0.05rem solid #aaa;margin: 1.8rem auto 0.5rem;}
+.main5-content .content-wrap p:last-child{width:90%;margin: 0 auto;font-size: 1rem;line-height: 1.5rem;}
+.main5-content .content-wrap p a{color: #b60000;}
+.main5-content a.content-wrap{background: url(../images/main5-2.png) center no-repeat;background-size: 100%;
+    line-height: 11rem;font-size: 1.8rem;color: #fff;font-weight: bold;}
+/*主体第六部分*/
+.main6 img {margin-bottom: 1rem;}
+/*主体第七部分*/
+.main7-content{background: #fff2e9;border-top: 0.15rem solid #ff851b;padding-bottom: 1rem;}
+.main7-content .sign-form .wrap{width: 48%;margin-top: 0.5rem;}
+.main7-content .sign-form .wrap span{font-size: 1.2rem;padding-right: 0.5rem;}
+.main7-content .sign-form .wrap input{width: 9rem;height: 2.5rem;line-height: 2.5rem;font-size: 1.2rem;color: #999;
+	text-indent:0.5rem;}
+.main7-content .btn{margin: 1rem 0;}
+.main7-content .btn a{display: inline-block;width: 40%;height: 3rem;line-height: 3rem;font-size: 1.2rem;color:#fff;}
+.main7-content .btn a:first-child{background:#88ac4a;margin-right:0.5rem;}
+.main7-content .btn a:last-child{background:#e9423c;margin-left:0.5rem;}
+/*页脚部分*/
+.footer{padding-bottom: 2rem;}
+.footer .footer-menu{height:3rem;background:url(../images/footer-1.png) no-repeat #ff851b;background-size: 100%;}
+.footer .footer-menu ul{height:3rem;line-height:3rem;}
+.footer .footer-menu ul li{float:left;width:25%;text-align:center;}
+.footer .footer-menu ul li a{color:#fff;font-size:1.2rem;}
+.footer .logo{text-align: center;}
+.footer .logo p{font-size: 2rem;color: #ff851b;font-weight: bold;text-align: center;padding: 1.5rem 0 1rem;}
+.footer .logo a{display: inline-block;width: 80%;margin: 1rem auto 0;height: 4rem;border-radius: 0.5rem; font-size: 1.2rem;
+	background: url(../images/footer-3.png) 10% center no-repeat #ff851b;background-size:15%;color: #fff;
+	padding: 0.5rem;text-indent: 2rem;}
+.footer .logo a span{font-size: 2.2rem;font-weight: bold;padding-left: 2rem;}
+.footer .footer-content{text-align: center;}
+.footer .footer-content p{font-size: 1.2rem;line-height:1.8rem;padding: 1rem 0;}
+.footer .btn{text-align: center;}
+.footer .btn a{display: inline-block;width: 32%;height: 2.5rem;line-height: 2.5rem;font-size: 1.2rem;color: #fff;}
+.footer .btn a:first-child{background: #88ac4a;}
+.footer .btn a:nth-child(2){background: #ff851b;}
+.footer .btn a:last-child{background: #e9423c;}
+
+
+
+@media screen and (min-width:320px) and (max-width:339px) {html { font-size: 62.5%; }}
+@media screen and (min-width:340px) and (max-width:359px) {html { font-size: 66.40625%; }}
+@media screen and (min-width:360px) and (max-width:379px) {html { font-size: 70.3125%; }}
+@media screen and (min-width:380px) and (max-width:399px) {html { font-size: 74.21875%; }}
+@media screen and (min-width:400px) and (max-width:419px) {html { font-size: 78.125%; }}
+@media screen and (min-width:420px) and (max-width:439px) {html { font-size: 82.03125%; }}
+@media screen and (min-width:440px) and (max-width:459px) {html { font-size: 85.9375%; }}
+@media screen and (min-width:460px) and (max-width:479px) {html { font-size: 89.84375%; }}
+@media screen and (min-width:480px) and (max-width:499px) {html { font-size: 93.75%; }}
+@media screen and (min-width:500px) and (max-width:519px) {html { font-size: 97.65625%; }}
+@media screen and (min-width:520px) and (max-width:639px) {html { font-size: 101.5625%; }}
+@media only screen and (min-width: 640px){html { font-size: 125%; }}

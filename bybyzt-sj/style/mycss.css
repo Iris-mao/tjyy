@@ -43,7 +43,7 @@ a:hover{ text-decoration:underline; color:#a41528;}
 .main2 .main2-content .main2-info .info-title{font-size:1.3rem;color:#333;padding-top:0.75rem;}
 .main2 .main2-content .main2-info .info-con{font-size:0.9rem;color:#666;line-height:1.4rem;padding-top:0.5rem;padding-bottom:0.5rem;border-bottom:0.05rem dashed #c8c8c8;}
 .main2 .main2-content .main2-info .info-apli{padding-bottom:0.5rem;}
-.main2 .main2-content .main2-info .info-apli button{width:7rem;height:2.25rem;background:#f12d19;color:#fff;font-size:1.2rem;margin-top:1.25rem;margin-left:1.5rem;}
+.main2 .main2-content .main2-info .info-apli button{width:7rem;height:2.25rem;background:#f12d19;color:#fff;font-size:1.1rem;margin-top:1.25rem;margin-left:1.5rem;line-height:2.25rem;}
 /*主体第三部分*/
 .main3{background:#f8ac01;padding-bottom:1rem;}
 .main3 >p {color:#f12d19;}
@@ -60,20 +60,20 @@ a:hover{ text-decoration:underline; color:#a41528;}
 .main4 .main4-content .main4-content .content-p{width:98%;height:14rem;margin:0 auto;background:#f2f2f2 url(../images/main4-pic.png) no-repeat center 9.5rem;background-size: 75%;}
 .main4 .main4-content .main4-content .content-p p:first-child{text-align:center;font-size:1.5rem;color:#f12d19;padding:0.75rem;}
 .main4 .main4-content .main4-content .content-p p:last-child{width:95%;font-size:0.9rem;color:#666;line-height:1.6rem;margin:0 auto;text-align:justify;}
-.main4 .main4-content .main4-content button{width:7rem;height:2.25rem;background:#f12d19;color:#fff;font-size:1.2rem;margin-top:2rem;}
+.main4 .main4-content .main4-content button{width:7rem;height:2.25rem;background:#f12d19;color:#fff;font-size:1.1rem;margin-top:2rem;}
 /*主体第五部分*/
 .main5{height:44.5rem;background:#f45747;}
 .main5 > p{color:#fff000;}
 .main5 .main5-content .main5-info{width:48%;background:#fff;text-align:center;margin-left:1rem;margin-bottom:1rem;padding-bottom:1rem;}
 .main5 .main5-content .main5-info .info-title{font-size:1.2rem;color:#333;margin-top:1.25rem;}
-.main5 .main5-content .main5-info button{width:8rem;height:2.25rem;color:#fff;font-size:1.2rem;padding-right:1.5rem;background:#f8ac01 url(../images/main5-btn-bk.png) no-repeat 6rem;background-size: 15%;}
+.main5 .main5-content .main5-info button{width:8rem;height:2.25rem;color:#fff;font-size:1.2rem;padding-right:2rem;background:#f8ac01 url(../images/main5-btn-bk.png) no-repeat 6rem;background-size: 15%;}
 /*主体第六部分*/
 .main6{height:43.5rem;background:#f8ac01;}
 .main6 > p{color:#f12d19;}
 .main6 .main6-content .main6-content-pic{height:14.5rem;background:url(../images/main6-pic.png) no-repeat;background-size: 95%;margin-left:1.75rem; padding-left: 53%;padding-top: 2.5rem;}
 .main6 .main6-content .main6-content-pic p{font-size:1.2rem;color:#fff;}
 .main6 .main6-content .main6-content-pic p span{font-family:impact;font-size:3.4rem;}
-.main6 .main6-content .main6-content-pic button{width:6.5rem;height:2.5rem;background:#fff000;margin-left:0.5rem;margin-top:0.5rem;color:#f12d19;font-size:1.1rem;}
+.main6 .main6-content .main6-content-pic button{width:6.6rem;height:2.5rem;background:#fff000;margin-left:5%;margin-top:0.5rem;color:#f12d19;font-size:1rem;}
 .main6 .main6-content ul{background:url(../images/main6-bk.png) no-repeat;background-size:9.5%;line-height:1.6rem;color:#fff;margin-top:-1.25rem;}
 .main6 .main6-content ul li{height:5rem;padding-left: 3.2rem;}
 .main6 .main6-content ul li p:first-child{font-size:1.2rem;}
@@ -108,7 +108,7 @@ a:hover{ text-decoration:underline; color:#a41528;}
 .main9 > p {color:#f12d19;}
 .main9 .sign-form{width:27rem;margin:0 auto;}
 .main9 .sign-form span{font-size:1.5rem;color:#333;}
-.main9 .sign-form input{width:17.5rem;height:3rem;line-height:3rem;border:0.05rem solid #fff;background:#f1f0f0;margin:1rem 1rem 0; padding-left:0.75rem;font-size:1rem;}
+.main9 .sign-form input{width:60%;height:3rem;line-height:3rem;border:0.05rem solid #fff;background:#f1f0f0;margin:1rem 1rem 0; padding-left:0.75rem;font-size:1rem;}
 .main9 .sign-form button{width:12rem;height:3rem;margin-top:2rem;margin-left:0.75rem;font-size:1.5rem;color:#fff;}
 /*页脚部分*/
 .footer{background:#494949;}

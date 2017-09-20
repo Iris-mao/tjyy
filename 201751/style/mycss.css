@@ -1,0 +1,115 @@
+@charset "utf-8";
+body{max-width:640px;margin:0 auto; padding:0; font-size:1.2rem; color:#333333;font-family:"microsoft yahei"; 
+    background:#fff; list-style-type:none;}
+    
+/*公共样式*/
+img{ border:none;max-width: 100%;vertical-align: middle;}
+ul,li,p,img,dd,dl,dt,span,font,h3,h4,input,div,table,td,tr{margin:0; padding:0;border:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#a41528;cursor: pointer;} 
+.clear{clear:both;}
+.lt{ float:left;}
+.rt{ float:right;}
+.wrap600{max-width:30rem;margin:0 auto;}
+
+/*头部*/
+.head{height:6.5rem;}
+.head .head-content{height:1.5rem;padding-top:1rem;text-align: center;}
+
+/*菜单栏*/
+.nav{height:3rem;background:#c00000 url(../images/nav-back.png);background-size:100% 100%;}
+.nav ul li{float:left;height:3rem;line-height:3rem;width:25%;text-align:center;}
+.nav ul li a{font-size:1.2rem;color:#fff;}
+
+/*主体第一部分*/
+.main1 .main1-content{background:#fff;text-align:center;padding-bottom:1rem;}
+.main1 .main1-content p{font-size:1.2rem;color:#333;line-height:2rem;text-align: justify; }
+.main1 .main1-content p span{color:#fff;font-size: 1.4rem;font-weight: bold;background: #c00000;
+	padding: 0.2rem 0.5rem;}
+/*主体第二部分*/
+.main2{background:#fff;padding-bottom:2rem;}
+.main2 .main2-content img{margin-right:0.5rem;width:31.7%;}
+.main2 .main2-content .main2-info{width:23.5%;height:14rem;margin: 1rem 0.5rem 0 0;text-align: center;}
+.main2 .main2-content .main2-info p.info-title{padding-top: 7.2rem;color: #c00000;font-size: 1.6rem;
+	font-weight: bold;}
+.main2 .main2-content .main2-info p.info-price{font-size: 0.9rem;color: #a0a0a0;text-decoration:line-through;
+	padding-bottom: 0.25rem;}
+.main2 .main2-content .main2-info p.info-now{font-size: 1.1rem;color: #c00000;border-top: 0.1rem solid #c00000;
+ 	margin: 0 0.3rem;padding-top: 0.3rem;}
+.main2 .main2-content .main2-info p.info-now span{font-size: 1.8rem;font-family: impact;vertical-align: middle;}
+.main2 .main2-content .main2-btn{height: 3.25rem;background: #c00000;}
+.main2 .main2-content .main2-btn p{color: #fff;line-height: 3.25rem;font-size: 1.5rem;font-weight: bold;
+	padding-left: 1rem;margin-top: 1rem;}
+.main2 .main2-content .main2-btn p a{background: #ffff00 url(../images/xiangqing-bk.png) no-repeat 8%;
+	background-size: 12%;color:#c00000;padding: 0.2rem 0.8rem 0.2rem 3rem;}
+/*主体第三部分*/
+.main3{background:#362e2b;padding-bottom:1rem;}
+.main3 .main3-content .main3-info{width:30.5%;height:15rem;margin:0 0.5rem 1rem 0;text-align: center;
+	background: #c00000;padding: 0.2rem;}
+.main3 .main3-content .main3-info .info-title{color:#fff;font-size: 1.1rem;line-height: 1.5rem;
+	padding: 0.75rem 0;}
+.main3 .main3-content .main3-info .info-content{padding: 0.5rem 0;background: #fff;height: 62%;}
+.main3 .main3-content .main3-info .info-content .content-title{font-size: 0.9rem;color: #c00000;
+	white-space: nowrap;}
+.main3 .main3-content .main3-info .info-content .content-title span{font-size: 1.2rem;font-family: impact;}
+.main3 .main3-content .main3-info .info-content .content-info{font-size: 0.9rem;color: #666;text-align: justify;
+	width: 90%;margin: 0 auto; padding: 0.2rem 0 0.7rem 0;height: 58%;}
+.main3 .main3-content .main3-info .info-content a{color: #ffff00;font-size: 1.2rem;background: #c00000;
+	padding: 0.2rem 1rem;border-radius: 1rem;}
+.main3 .main3-content .main3-btn{height: 7rem;background: #c58e40;text-align: center;}
+.main3 .main3-content .main3-btn p{color: #fff;font-size: 1.6rem;font-weight: bold;padding: 0.8rem 0;}
+/*主体第四部分*/
+.main4{padding: 1rem 0;}
+.main4 .main4-content .main4-btn{height: 3rem;background: #c00000;text-align: center;}
+.main4 .main4-content .main4-btn p{font-size: 1.6rem;color: #fff;font-weight: bold;line-height: 3rem;}
+/*主体第五部分*/
+.main5{padding: 1rem 0;}
+.main5 .main5-content .main5-info{width:32%;text-align:center;height: 13rem;margin: 1rem 0.5rem 0 0;}
+.main5 .main5-content .doctor-name{padding-top: 63%;color: #333;font-size: 1.4rem;font-weight: bold;}
+.main5 .main5-content .doctor-position{font-size: 0.9rem;color: #333;}
+.main5 .main5-content .main5-info a{font-size: 1.4rem;color: #fff;font-weight: bold;}
+.main5 .main5-content .main5-btn{height: 3.25rem;background: #c00000;}
+.main5 .main5-content .main5-btn p{color: #fff;line-height: 3.25rem;font-size: 1.5rem;font-weight: bold;
+	padding-left: 1rem;margin-top: 1rem;}
+.main5 .main5-content .main5-btn p a{background: #ffff00;color:#c00000;padding: 0.2rem 1rem;margin-left: 1rem;}
+/*主体第六部分*/
+.main6{padding-bottom:1rem;background:#ad0000;}
+.main6 .main6-content .main6-info{width: 32.5%;margin:1rem 0.2rem 0 0;background: #fed0d0;text-align: center;
+	height: 22rem;}
+.main6 .main6-content .main6-info .info-title{font-size: 1.1rem;font-weight: bold;color: #c00000;
+	padding-top: 1rem;}
+.main6 .main6-content .main6-info .info-title span{padding-bottom: 0.5rem;border-bottom:0.3rem solid #c00000; }
+.main6 .main6-content .main6-info img{margin-top: 1.5rem; width: 90%;}
+.main6 .main6-content .main6-info .info-content{color: #c00000;font-size: 1.1rem;line-height: 1.8rem;
+	width: 81%;margin:0 auto;text-align: justify;}
+/*主体第七部分*/
+.main7{padding:1rem;}
+.main7 .main7-content{text-align: center;}
+.main7 .main7-content img{margin: 2% 0 2% 3%;width: 30%;}
+.main7 .main7-content .main7-btn{height: 2.5rem;background: #c00000;text-align: left;}
+.main7 .main7-content .main7-btn span{line-height: 2.5rem;font-size: 1.2rem;color: #c00000;background: #fff;
+padding:0.25rem 1rem;margin-left: 1%;}
+.main7 .main7-content .main7-btn a{color: #fff;font-size: 1.2rem;padding-left:6%;}
+/*页脚部分*/
+.footer{background:#cacaca;}
+.footer .footer-menu{height:3.5rem;background:#362e2b;}
+.footer .footer-menu ul{height:3.5rem;line-height:3.5rem;}
+.footer .footer-menu ul li{float:left;width:25%;text-align:center;}
+.footer .footer-menu ul li a{color:#fff;font-size:1.2rem;}
+.footer .footer-content{text-align: center;}
+.footer .footer-content p{font-size: 1.1rem;color: #333;line-height: 1.8rem;padding: 1.3rem 0;}
+
+
+@media screen and (min-width:320px) and (max-width:339px) {html { font-size: 62.5%; }}
+@media screen and (min-width:340px) and (max-width:359px) {html { font-size: 66.40625%; }}
+@media screen and (min-width:360px) and (max-width:379px) {html { font-size: 70.3125%; }}
+@media screen and (min-width:380px) and (max-width:399px) {html { font-size: 74.21875%; }}
+@media screen and (min-width:400px) and (max-width:419px) {html { font-size: 78.125%; }}
+@media screen and (min-width:420px) and (max-width:439px) {html { font-size: 82.03125%; }}
+@media screen and (min-width:440px) and (max-width:459px) {html { font-size: 85.9375%; }}
+@media screen and (min-width:460px) and (max-width:479px) {html { font-size: 89.84375%; }}
+@media screen and (min-width:480px) and (max-width:499px) {html { font-size: 93.75%; }}
+@media screen and (min-width:500px) and (max-width:519px) {html { font-size: 97.65625%; }}
+@media screen and (min-width:520px) and (max-width:639px) {html { font-size: 101.5625%; }}
+@media only screen and (min-width: 640px){html { font-size: 125%; }}

@@ -1,0 +1,141 @@
+body{max-width:640px;margin:0 auto; padding:0; font-size:1.2rem; color:#333333;font-family:"microsoft yahei"; 
+    background:#fff; list-style-type:none;-webkit-text-size-adjust:none;}
+    
+/*公共样式*/
+img{ border:none;max-width: 100%;vertical-align: middle;}
+ul,li,p,img,dd,dl,dt,span,font,h3,h4,input,div,table,td,tr{margin:0; padding:0;border:none;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ text-decoration:underline; color:#a41528;cursor: pointer;} 
+.clear{clear:both;}
+.lt{ float:left;}
+.rt{ float:right;}
+.wrap600{max-width:30rem;margin:0 auto;}
+.main{text-align:center;}
+/*标题部分*/
+.content-title{font-size: 2.3rem;line-height: 3rem;color: #eb423d;padding:0.5rem 0;font-weight: bold;
+  background:url(../images/title-back.png) bottom no-repeat;background-size: 100%;}
+
+/*头部*/
+.head{height:6rem;margin: 0 auto;background: #eb423d;text-align: center;}
+.head .head-content{padding:1rem 0;}
+
+/*菜单栏*/
+.nav{height:4.5rem;}
+.nav ul li{float:left;height:4rem;width:24.5%;text-align:center;margin: 0.5% 0.25% 0.5% 0.25%;background:#eb423d;
+  padding-top: 1rem;}
+.nav ul li a{font-size:1.2rem;color:#fff;}
+.nav ul li a span{text-transform:uppercase;font-size: 0.8rem;padding-top: 1rem;}
+
+/*主体第一部分*/
+.main1{padding: 2rem 0 1rem;}
+.main1 p{font-size: 1.1rem;line-height: 1.8rem;background: url(../images/main1-1.png) center no-repeat;
+  background-size: 100%;text-align: justify;text-indent: 2rem;padding: 2.5rem 0.5rem 0 8rem;height: 10rem;}
+/*主体第二部分*/
+.main2{padding: 1rem 0;}
+.main2-content .content-wrap{width: 32%;margin:2% 2% 0 0;}
+.main2-content .content-wrap p{font-size: 1.2rem; line-height: 2rem;}
+/*主体第三部分*/
+.main3{background: #fdeceb;padding: 1rem 0;}
+.main3-content{padding-top: 1rem;}
+.main3-content .content-wrap{width: 45%;margin: 2%;border: 0.05rem solid #eb423d;border-radius: 1rem;overflow: hidden;}
+.main3-content .content-wrap .title{background:#fff;font-size:1.5rem;font-weight: bold;line-height: 3rem;}
+.main3-content .content-wrap .content{background:#eb423d;color: #fff;font-size: 1.2rem;text-align: justify;
+   padding:0.7rem;}
+.main3-content .btn a{display: inline-block;width: 45.2%;margin: 2%;height: 3rem;line-height: 3rem;color: #fff;
+  background:#eb423d url(../images/main3-5.png) 5% center no-repeat;background-size: 13%;
+  font-size: 1.2rem;border-radius: 0.5rem;text-indent: 7%;}
+.main3-content .btn a:last-child{background:#fba40e url(../images/main3-6.png) 15% center no-repeat;background-size: 13%;}
+/*主体第四部分*/
+.main4{padding: 1rem 0;}
+.main4-content{background:url(../images/main4-1.png) no-repeat;background-size: 100%;margin-top: -0.1rem;}
+.main4-content .content-wrap{width: 27%;margin:10% 3%;}
+.main4-content .content-wrap p{font-size: 1.1rem;color: #fff;line-height: 1.8rem;padding-top: 0.5rem;}
+.main4-content a{display: inline-block;width: 100%;height: 3.5rem;line-height: 3.5rem;color: #fff;font-size: 1.5rem;
+   background:#fba40e;border-radius: 0.5rem;margin-top: -5%;}
+/*主体第五部分*/
+.main5{padding: 1rem 0;}
+.main5-content img{width: 90%;margin-bottom: 1rem;}
+.main5-content ul{background:url(../images/main5-2.png) no-repeat;background-size: 100%;height: 45rem;width: 95%;
+    margin: 0 auto;}
+.main5-content ul li{font-size: 1.2rem;line-height: 1.8rem;text-align: justify;text-indent: 2rem;}
+.main5-content ul li:first-child{width: 16rem; padding-top: 15%;padding-left: 35%;}
+.main5-content ul li:nth-child(2){width: 16.8rem; padding-top: 22%;}
+.main5-content ul li:last-child{width: 13.5rem;padding-top: 16%;padding-left: 37%;}
+.main5-content .btn a{display: inline-block;width: 50%;height: 3.5rem;line-height: 3.5rem;color: #fff;font-size: 1.2rem;
+   background: #eb423d;}
+.main5-content .btn a:last-child{background:#fba40e;}
+/*主体第六部分*/
+.main6{padding: 1rem 0;}
+.main6-content > p{font-size: 1.4rem;line-height: 2rem;margin: 1rem 0;}
+.main6-content > p span{color: #fba40e;font-weight: bold;}
+.main6-content .content-wrap{width: 48%;margin: 1%;height: 17rem;}
+.main6-content .content-wrap .title{width: 50%;margin: 3.2rem auto;color: #fff;font-size: 1.5rem;font-weight: bold;
+   line-height: 2.5rem;border:0.05rem solid #fff;border-radius: 0.5rem;}
+.main6-content .content-wrap .content{width: 90%;margin: 0 auto;text-align: justify;font-size: 1.1rem;line-height: 1.8rem;}
+/*主体第七部分*/
+.main7{padding: 1rem 0;}
+.main7-content .content-wrap{width: 32%;margin:1rem 2% 1rem 0;background:#eb423d; }
+.main7-content .content-wrap .title{width: 95%;margin: 1rem auto 0.5rem;color: #fff;font-size: 1.3rem;
+  font-weight: bold;padding-bottom: 0.5rem;border-bottom: 0.05rem dashed #fff;}
+.main7-content .content-wrap .xianjia{font-size: 1.2rem;color: #fff;font-weight: bold;}
+.main7-content .content-wrap .xianjia span{font-family: Impact;color: #fff000;font-size: 2rem;}
+.main7-content .content-wrap .yuanjia{font-size: 1.2rem;color: #ffb4b2;text-decoration: line-through;margin-bottom: 0.7rem;}
+.main7-content > a{display: inline-block;width: 100%;height: 3.5rem;line-height: 3.5rem;color: #fff;
+  font-size: 1.5rem;background:#fba40e;border-radius: 0.5rem;}
+/*主体第八部分*/
+.main8{padding: 1rem 0;}
+.main8-content{margin-top: 1rem;}
+.main8-content a{height: 3rem;line-height: 3rem;color: #fff;font-size: 1.2rem;}
+.main8-content a:nth-child(1){width: 49.9%;background:#f5706d;}
+.main8-content a:nth-child(2){width: 49.9%;background:#fbb578;}
+.main8-content a:nth-child(3){width: 40%;background:#fbb36a;margin: 0.2% 0;}
+.main8-content a:nth-child(4){width: 20%;margin:0.2%;background:#cbaacd;}
+.main8-content a:nth-child(5){width: 39.6%;background:#f7bcbc;margin: 0.2% 0;}
+.main8-content a:nth-child(6){width: 49.9%;background:#b377b3;}
+.main8-content a:nth-child(7){width: 49.9%;background:#ff9999;}
+.main8-content a:nth-child(8){width: 33%;background:#f59491;margin: 0.2% 0;}
+.main8-content a:nth-child(9){width: 33.6%;background:#e6bd76;margin: 0.2%;}
+.main8-content a:nth-child(10){width: 33%;background:#cc99cc;margin: 0.2% 0;}
+/*主体第九部分*/
+.main9{padding: 2rem 0;background:#fdf0f0;}
+.main9 img{width: 40%;}
+.main9 > p{font-size: 2.5rem;color: #111111;}
+.main9 .btn{width: 70%;margin: 1rem auto 0;}
+.main9 .btn > div{width: 50%;}
+.main9 .btn p{font-size: 1.5rem;color: #111111;}
+/*主体第十部分*/
+.main10{margin-top: 2rem;border-top: 0.25rem solid #d2d2d2;}
+.main10 > p{font-size: 1.8rem;color: #eb423d;line-height: 3.8rem;background:#eeeeee;}
+.main10 .main10-content p{font-size: 1.2rem;color: #ce0600;line-height: 2.5rem;}
+.main10 .main10-content .content-wrap1{width: 85%;margin: 0.5rem auto;}
+.main10 .main10-content .content-wrap1 .lt{width: 43%;background:url(../images/main10-1.png) no-repeat;
+  background-size: 100%;}
+.main10 .main10-content .content-wrap1 .lt .title{font-size: 1.2rem;color: #fff;border-bottom: 0.05rem dashed #fff;}
+.main10 .main10-content .content-wrap1 .lt .price{font-size: 1.2rem;color: #fff;padding: 0.5rem 0 1rem;}
+.main10 .main10-content .content-wrap1 .lt .price span{font-family: Impact;font-size: 3rem;color: #fff000;}
+.main10 .main10-content .content-wrap1 .rt{width: 50%;border: 0.35rem solid #eb423d;height: 5.5rem;}
+.main10 .main10-content .content-wrap1 .rt .title{font-size: 1.5rem;color: #eb423d;font-weight: bold;
+  line-height: 2rem;padding-top: 0.8rem;}
+.main10 .main10-content .content-wrap1 .rt .content{font-size: 1.2rem;color:#eb423d;line-height: 2rem; }
+.main10 .main10-content .content-wrap{width: 32%;margin:1rem 2% 2rem 0;}
+.main10 .main10-content .content-wrap p{font-size: 1.2rem;color: #333;line-height: 1.8rem;}
+/*页脚部分*/
+.footer{padding-bottom: 1rem;}
+.footer .footer-content{padding: 1rem 0;text-align: center;background:url(../images/footer-back.png) no-repeat;
+  background-size: 100%;}
+.footer .footer-content img{width: 60%;padding-top: 1rem;}
+.footer .footer-content p{font-size: 1.2rem;line-height: 1.8rem;margin-top: 0.5rem;}
+
+@media screen and (min-width:320px) and (max-width:339px) {html { font-size: 62.5%; }}
+@media screen and (min-width:340px) and (max-width:359px) {html { font-size: 66.40625%; }}
+@media screen and (min-width:360px) and (max-width:379px) {html { font-size: 70.3125%; }}
+@media screen and (min-width:380px) and (max-width:399px) {html { font-size: 74.21875%; }}
+@media screen and (min-width:400px) and (max-width:419px) {html { font-size: 78.125%; }}
+@media screen and (min-width:420px) and (max-width:439px) {html { font-size: 82.03125%; }}
+@media screen and (min-width:440px) and (max-width:459px) {html { font-size: 85.9375%; }}
+@media screen and (min-width:460px) and (max-width:479px) {html { font-size: 89.84375%; }}
+@media screen and (min-width:480px) and (max-width:499px) {html { font-size: 93.75%; }}
+@media screen and (min-width:500px) and (max-width:519px) {html { font-size: 97.65625%; }}
+@media screen and (min-width:520px) and (max-width:639px) {html { font-size: 101.5625%; }}
+@media only screen and (min-width: 640px){html { font-size: 125%; }}

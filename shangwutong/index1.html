@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>商务通样式</title>
+<style type="text/css">
+.absolute{position: absolute;}
+.swtCenter{display:block;}
+.swtCenter {display:block;width:270px;height:247px; background-color:#FFF;position:fixed;left:50%;top:50%;z-index:9999999;margin-left:-127px;margin-top:-130px;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;-moz-box-shadow:0 0 20px rgba(10,2,4,0.75);-webkit-box-shadow:0 0 20px rgba(10,2,4,0.75);box-shadow:0 0 20px rgba(10,2,4,0.75);}
+.swtCenter h3 {width:100%;font-size:36px;line-height:36px;text-align:center;color:#000;font-weight:500;margin-top:10px; margin-bottom:0px;}
+.swtCenter h4 {padding-top:5px;width:100%;font-size:18px;color: #ea003e;text-align:center; margin:0px;}
+.mfhd {width:245px;height:32px;border:1px solid #f7a130;-moz-border-radius:17px;-webkit-border-radius:17px;border-radius:17px;margin:6px auto 5px;overflow:hidden;}
+.mfhd .txt {width:160px;height:30px;line-height:30px; background-color:#FFF;font-size:14px;-moz-border-radius:15px 0 0 15px;-webkit-border-radius:15px 0 0 15px;border-radius:15px 0 0 15px;padding-left:13px;float:left;outline:none;border: none;}
+.mfhd .subbo{-webkit-appearance:none;border:none;cursor: pointer;width:62px;height:32px;line-height:32px;color:#fff; background-color:#f7a130;font-size:12px;text-align:center;text-decoration:none;-moz-border-radius:0 14px 14px 0;-webkit-border-radius:0 14px 14px 0;border-radius:0 14px 14px 0;float:right;}
+.swtCenter p {width:245px;font-size:12px;line-height:20px;color:#666666;margin:0 auto;}
+.swtCenter p.intro{width: 225px;height: 25px;line-height: 25px;border: 1px solid #cccccc;font-size: 15px;
+     margin: 3px 0 0 15px;text-indent:1rem; } 
+.swtCenter p.intro span{color: #f52d62;}
+.swt_lists {bottom:0;left:0;width:100%;height:50px;line-height:50px;-moz-border-radius:0 0 15px 15px;-webkit-border-radius:0 0 15px 15px;border-radius:0 0 15px 15px;}
+.swt_lists a {display:block;width:50%;height:100%;position:relative;float:left;}
+.swt_list1 { background-color:#f7a130;-moz-border-radius:0 0 0 15px;-webkit-border-radius:0 0 0 15px;border-radius:0 0 0 15px;}
+.swt_list2 { background-color:#39a3cb;-moz-border-radius:0 0 15px 0;-webkit-border-radius:0 0 15px 0;border-radius:0 0 15px 0;}
+.swt_lists a i,.swt_lists a em {display:block;position:absolute;left:50%;color:#fff;text-decoration:none;}
+.swtCallIcon {top:50%;margin-left:-42px;margin-top:-14px;width:22px;height:31px; background:url(\http://3g.sztjfk.com/templets/images/swt1.png) no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%;}
+.swt_lists em {height:100%;top:0;margin-left:-20px;font-size:20px;font-style:normal;}
+.swtLinkIcon {top:50%;margin-left:-58px;width:38px;height:33px;margin-top:-18px;background:url(\http://3g.sztjfk.com/templets/images/swt2.png) no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%;}
+.closeBtn_swt {right:-12px;top:-12px;width:44px;height:44px; background:url(\http://m1.sztjnk.com/swt/images/closeBtn_swt.png) no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%;cursor:pointer;position: absolute;}
+</style>
+</head>
+<body>
+<div id="swtBox" class="swtCenter relative" style="display: none;">
+    <span class="closeBtn_swt absolute" onclick="hideSwt();"></span>
+    <h3>苏州同济医院</h3>
+    <h4>国家二级医院</h4>
+    <div class="mfhd clearfix">
+<script type="text/javascript" data-lxb-uid="5361983" data-lxb-gid="18344" src="http://lxbjs.baidu.com/api/asset/api.js?t=' + new Date().getTime() + '" charset="utf-8"></script>
+<input type="tel" id="telinput" value="请输入你的电话号码" class="txt" onclick="if(this.value=='请输入你的电话号码'){this.value='';}" onblur="if(this.value==''){this.value='请输入你的电话号码';}">
+<input type="submit" value="免费回电" id="callbtn" class="subbo" />
+    </div>
+    <p>我们将立即回电，该通话对您<span style="color:#e3003c;">免费</span>，请放心接听，手机直接输入，座机前加区号</p>
+    <p class="intro"><span>15秒</span>回复&nbsp;&nbsp;<span>0元</span>挂号&nbsp;&nbsp;<span>医保</span>定点</p>
+<script>
+document.getElementById("callbtn").onclick = function () {
+lxb.call(document.getElementById("telinput"));
+};
+</script>
+    <div class="swt_lists absolute">
+        <a href="tel:4006009222" class="swt_list1"><i class="swtCallIcon"></i><em>拨打电话</em></a>
+        <a href="javascript:void(0);" onclick="openZoosUrl();" class="swt_list2">
+        <i class="swtLinkIcon"></i><em>免费咨询</em></a>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+var is_invite=false;
+var sTimer = setInterval(function(){
+	if(typeof LR_showInviteDiv != "undefined"){
+		var LR_showInviteDiv_o = LR_showInviteDiv;
+		window.LR_showInviteDiv = function(){
+			is_invite=true;
+			//showSwt();
+		}
+		clearInterval(sTimer);
+	}
+},100);
+
+	window.setTimeout("showSwt()", 3000);
+
+
+/*主窗口*/
+
+function showSwt(){
+	if(is_invite){
+		LR_RefuseChat();
+		is_invite=false;
+	}
+	if(typeof jQuery != "undefined"){
+		$("#swtBox").show(800);
+	}else{
+		document.getElementById("swtBox").style.display = 'block';	
+	}
+}
+
+function hideSwt(){
+	if(typeof jQuery != "undefined"){
+		$("#swtBox").hide(800);
+	}else{
+		document.getElementById("swtBox").style.display = 'none';	
+	}
+	setTimeout(showSwt,10000);
+}
+</script>

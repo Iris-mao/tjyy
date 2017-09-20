@@ -64,12 +64,13 @@ a:hover{ text-decoration:underline; color:#a41528;cursor: pointer;}
 .main4-content p{font-size: 1.1rem;line-height: 1.8rem;text-align:justify;padding: 8% 2% 7% 50%;}
 /*主体第五部分*/
 .main5-content{margin-bottom: 1rem;}
-.main5-content .content-info{width:23.5%;height:16rem;margin: 1rem 0.5rem 0 0;text-align: center;}
-.main5-content .content-info p.info-title{padding-top: 8rem;color: #ff4555;font-size: 1.2rem;font-weight: bold;}
-.main5-content .content-info p.info-price{font-size: 1rem;text-decoration:line-through;
+.main5-content .content-info{width:32%;height:20rem;margin: 1rem 0.5rem 0 0;text-align: center;}
+.main5-content .content-info p.info-title{padding-top: 10rem;color: #ff4555;font-size: 1.5rem;font-weight: bold;
+    line-height: 2.5rem;}
+.main5-content .content-info p.info-price{font-size: 1.1rem;text-decoration:line-through;
 	padding-bottom: 0.25rem;}
-.main5-content .content-info p.info-now{font-size: 1rem;margin: 0 0.3rem;margin-bottom: 0.5rem;}
-.main5-content .content-info p.info-now span{font-size: 1.5rem;font-family: impact;vertical-align: middle;
+.main5-content .content-info p.info-now{font-size: 1.1rem;margin: 0 0.3rem;margin-bottom: 0.5rem;}
+.main5-content .content-info p.info-now span{font-size: 2.4rem;font-family: impact;vertical-align: middle;
 	color: #ff9600;}
 .main5-content .content-info > a{font-size:1.2rem;background:#ff9600;color: #fff;padding: 0.2rem 0.5rem;
 	border-radius: 0.4rem;}
